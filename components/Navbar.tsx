@@ -18,10 +18,10 @@ export default function Navbar() {
           <div className="flex space-x-4">
             <Link
               href="/"
-              className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
+              className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white no-underline"
               aria-current="page"
             >
-              <HomeIcon className="mr-2"></HomeIcon>
+              <HomeIcon className="mr-2 "></HomeIcon>
               home
             </Link>
             {
